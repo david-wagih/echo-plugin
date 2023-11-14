@@ -1,4 +1,8 @@
+import android.util.Log;
 import org.apache.cordova.CordovaPlugin;
+import org.json.JSONArray;
+import org.json.JSONException;
+import java.util.Date;
 
 public class MyCordovaPlugin extends CordovaPlugin {
     private static final String TAG = "MyCordovaPlugin";
