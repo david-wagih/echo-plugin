@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="my-cordova-plugin"
-    version="1.0.0">
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="my-cordova-plugin" version="1.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://apache.org/cordova/ns/plugins/1.0 ">
     <name>My Cordova Plugin</name>
-    <description></description>
+    <description>This is my first custom plugin</description>
     <license>MIT</license>
     <keywords>echo,plugin, cordova</keywords>
 
@@ -18,8 +18,8 @@
     <!-- android -->
     <platform name="android">
         <config-file target="res/xml/config.xml" parent="/*">
-            <feature name="MyCordovaPlugin" >
-                <param name="android-package" value="com.example.MyCordovaPlugin"/>
+            <feature name="MyCordovaPlugin">
+                <param name="android-package" value="com.example.MyCordovaPlugin" />
                 <param name="onload" value="true" />
             </feature>
         </config-file>
@@ -31,7 +31,7 @@
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="MyCordovaPlugin">
-                <param name="ios-package" value="MyCordovaPlugin" onload="true"/>
+                <param name="ios-package" value="MyCordovaPlugin" onload="true" />
             </feature>
         </config-file>
 

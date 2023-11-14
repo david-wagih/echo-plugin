@@ -1,3 +1,5 @@
+import org.apache.cordova.CordovaPlugin;
+
 public class MyCordovaPlugin extends CordovaPlugin {
     private static final String TAG = "MyCordovaPlugin";
 
